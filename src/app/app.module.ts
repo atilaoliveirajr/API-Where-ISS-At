@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { IssPositionMapComponent } from './components/iss-position-map/iss-position-map.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IssPositionMapComponent,
+    
   ],
   imports: [
     BrowserModule,
