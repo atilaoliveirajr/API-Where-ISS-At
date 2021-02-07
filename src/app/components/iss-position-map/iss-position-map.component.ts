@@ -11,7 +11,7 @@ export class IssPositionMapComponent implements OnInit, AfterViewInit {
 
   // Set a custom Icon
   issIcon = L.icon({
-    iconUrl: '../../../assets/img/International_Space_Station.svg.png',
+    iconUrl: './assets/img/International_Space_Station.svg.png', // Local address - ../../../assets [...]
     iconSize:     [50, 32], // size of the icon
     shadowSize:   [25, 16], // size of the shadow
     iconAnchor:   [25, 16], // point of the icon which will correspond to marker's location
