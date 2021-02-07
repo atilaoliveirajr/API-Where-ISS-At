@@ -1,17 +1,34 @@
-.map-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 30px;
-}
-
-.map-frame {
-    border: 2px solid black;
-    height: 100%;
-}
-
-#map {
-    height: 100%;
+.main {
+    display: flex;
+    flex-direction: column;
+    header {
+        height: 40px;
+        background-color: black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            margin: 0px;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+    .map-container {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 30px;
+        .map-frame {
+            box-sizing: border-box;
+            border: 2px solid black;
+            height: 100%;
+            width: 100%;
+            #map {
+                height: 100%;
+            }
+        }
+    }
 }
